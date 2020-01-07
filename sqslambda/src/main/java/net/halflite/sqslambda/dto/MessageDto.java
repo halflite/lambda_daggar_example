@@ -1,13 +1,16 @@
 package net.halflite.sqslambda.dto;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class MessageDto {
   private final Long id;
   private final String statusType;
 
   @JsonCreator(mode = JsonCreator.Mode.PROPERTIES)
-  public MessageDto(Long id, String statusType) {
+  public MessageDto(
+      @JsonProperty("id")Long id, 
+      @JsonProperty("status_type")String statusType) {
     this.id = id;
     this.statusType = statusType;
   }
