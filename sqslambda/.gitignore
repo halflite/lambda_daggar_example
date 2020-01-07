@@ -1,4 +1,6 @@
 .project
 .classpath
+.factorypath
 .settings/
 /target/
+/.apt_generated/
