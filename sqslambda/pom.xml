@@ -16,7 +16,7 @@
     <dagger.version>2.25.4</dagger.version>
     <aws.version>1.11.700</aws.version>
     <slf4j.version>1.7.30</slf4j.version>
-    <logback.version>1.2.3</logback.version>
+    <logback.version>1.2.13</logback.version>
     <junit.version>5.5.2</junit.version>
     <mockito.version>3.2.4</mockito.version>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
